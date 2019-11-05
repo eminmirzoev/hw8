@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header__menu">
+            <nav class="main__menu">
+                <div class="main__logo">
+                    <a href="index.html"><img src="../src/img/logo.png"></a>
+                    <div class="main__menu">
+                            <ul class="menu">
+                                    <li><a href="index.html">Main</a></li>|
+                                    <li><a href="gallery.html">Gallery</a></li>|
+                                    <li><a href="about.html">About</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+                <div class="content">
+                <div class="gallery">
+                    <img class="pony" src="img/1.jpg" style="width:100%;max-width:300px">
+                    <img class="pony" src="img/2.png" style="width:100%;max-width:300px">
+                    <img class="pony" src="img/3.jpg" style="width:100%;max-width:300px">
+                </div>
+        
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img">
+                    <div class="caption" id="caption"></div>
+                </div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+    
+</body>
+</html>

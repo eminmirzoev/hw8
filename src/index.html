@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header__menu">
+        <nav class="main__menu">
+            <div class="main__logo">
+               <a href="index.html"><img src="../src/img/logo.png"></a>
+                <div class="main__menu">
+                        <ul class="menu">
+                                <li><a href="index.html">Main</a></li>|
+                                <li><a href="gallery.html">Gallery</a></li>|
+                                <li><a href="about.html">About</a></li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../src/img/1.jpg" alt="0">
+              </div>
+              <div class="carousel-item">
+                <img src="../src/img/2.png" alt="1">
+              </div>
+              <div class="carousel-item">
+                <img src="../src/img/3.jpg" alt="2">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+</body>
+</html>

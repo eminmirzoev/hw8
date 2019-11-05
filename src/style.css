@@ -1,0 +1,28 @@
+body {
+    width: 1280px;
+    height: 720px;
+    background-image: url(../src/img/Background.png);
+    background-size: 1280px 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main__logo img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.menu {
+    float: right;
+    display: flex;
+    font-size: 30px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: yellow;
+}
